@@ -8,4 +8,4 @@ This readme will timeline all the changes made and callout tags and branches, de
 
 
 
-- Base html5 starter with a css stylesheed and a simple javascript file.
+- TAG 0.1 - Base html5 starter with a css stylesheed and a simple javascript file.
