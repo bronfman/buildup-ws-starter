@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/bbodine1/buildup-ws-starter#readme",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.3"
   }
 }
