@@ -15,7 +15,6 @@ gulp.task('clean', function (cb) {
   ], cb);
 });
 
-
 // CSS task
 gulp.task('css', function() {
   return gulp.src('./src/sass/main.scss')
@@ -62,11 +61,3 @@ gulp.task('serve', ['css'], function() {
 gulp.task('default', function (cb) {
   sequence('clean', 'movefiles', 'moveimages', 'movejs', 'serve', cb);
 });
-
-
-
-
-
-
-
-
