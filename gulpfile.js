@@ -5,12 +5,16 @@ var plumber 		= require('gulp-plumber');
 var notify 			= require('gulp-notify');
 var rename 			= require('gulp-rename');
 var del 				= require('del');
-var sequence 		= require('gulp-sequence');
+var sequence 		= require('run-sequence');
 
-// Cleanup
-gulp.task('clean', function() {
-	del(['./build']);
+
+// Clean
+gulp.task('clean', function (cb) {
+  del([
+    './build'
+  ], cb);
 });
+
 
 // CSS task
 gulp.task('css', function() {
@@ -30,6 +34,18 @@ gulp.task('movefiles', function() {
 		.pipe(gulp.dest('./build'));
 });
 
+// Copy images from src to build
+gulp.task('moveimages', function() {
+		gulp.src('./src/img/*')
+		.pipe(gulp.dest('./build/img'))
+});
+
+// Copy js from src to build
+gulp.task('movejs', function() {
+		gulp.src('./src/js/*')
+		.pipe(gulp.dest('./build/js'))
+});
+
 // Static Server + watching scss/html files (localhost:3000)
 gulp.task('serve', ['css'], function() {
     browsersync.init({
@@ -43,8 +59,9 @@ gulp.task('serve', ['css'], function() {
 
 
 // Default Task (just run `gulp`)
-// gulp.task('default', ['clean', 'movefiles', 'serve']);
-gulp.task('default', sequence(['clean', 'movefiles'], ['serve']));
+gulp.task('default', function (cb) {
+  sequence('clean', 'movefiles', 'moveimages', 'movejs', 'serve', cb);
+});
 
 
 
