@@ -1,6 +1,6 @@
 'use strict';
 
-// CSS task
+// STYLES task
 
 // This task requires
 var config       	= require('../config');
@@ -10,8 +10,8 @@ var sass        	= require('gulp-sass');
 var plumber 			= require('gulp-plumber');
 var notify 				= require('gulp-notify');
 
-// Gulp css
-gulp.task('css', function() {
+// Gulp styles
+gulp.task('styles', function() {
   return gulp.src('./src/sass/main.scss')
     .pipe(plumber(
     		{errorHandler: notify.onError('Error: <%= error.message %>')}
