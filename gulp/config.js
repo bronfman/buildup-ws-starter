@@ -2,7 +2,10 @@
 
 module.exports = {
 
-  'defaultgulp'   : 'dev',
+  'dist': {
+    'root'  : 'build'
+  },
+
 
   'browserport'  : 3000,
   'uiport'       : 3001,
@@ -48,9 +51,7 @@ module.exports = {
     'options': {}
   },
 
-  'dist': {
-    'root'  : 'build'
-  },
+
 
   'browserify': {
     'entries'   : ['./app/main.js', './app/vendor.js'],
