@@ -12,5 +12,5 @@ var rename 				= require('gulp-rename');
 gulp.task('movefiles', function() {
 		gulp.src('./src/views/index.html')
 		.pipe(rename('index.html'))
-		.pipe(gulp.dest('./build'));
+		.pipe(gulp.dest(config.dist.root));
 });
