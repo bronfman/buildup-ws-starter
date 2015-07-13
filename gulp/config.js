@@ -16,15 +16,16 @@ module.exports = {
     'outputstyle': 'expanded' // Values: nested, expanded, compact, compressed
   },
 
+  'images': {
+    'src' : 'src/img/**/*',
+    'dest': 'build/img'
+  },
+
   'scripts': {
     'src' : 'app/ng/**/*.js',
     'dest': 'build/ng'
   },
 
-  'images': {
-    'src' : 'app/images/**/*',
-    'dest': 'build/images'
-  },
 
   'fonts': {
     'src' : ['app/fonts/**/*'],
