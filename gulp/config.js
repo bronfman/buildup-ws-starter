@@ -22,8 +22,8 @@ module.exports = {
   },
 
   'scripts': {
-    'src' : 'app/ng/**/*.js',
-    'dest': 'build/ng'
+    'src' : 'src/js/**/*.js',
+    'dest': 'build/js'
   },
 
 

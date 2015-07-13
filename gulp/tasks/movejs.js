@@ -9,6 +9,6 @@ var gulp         	= require('gulp');
 
 // Copy js from src to build
 gulp.task('movejs', function() {
-		gulp.src('./src/js/*')
-		.pipe(gulp.dest('./build/js'))
+		gulp.src(config.scripts.src)
+		.pipe(gulp.dest(config.scripts.dest))
 });
