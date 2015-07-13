@@ -2,18 +2,18 @@
 
 module.exports = {
 
-  'dist': {
-    'root'  : 'build'
-  },
-
-
   'browserport'  : 3000,
   'uiport'       : 3001,
   'serverport'   : 3002,
 
+  'dist': {
+    'root'  : 'build'
+  },
+
   'styles': {
-    'src' : 'src/sass/**/*.scss',
-    'dest': 'build/css'
+    'src'  : 'src/sass/**/*.scss',
+    'dest' : 'build/css',
+    'outputstyle': 'expanded' // Values: nested, expanded, compact, compressed
   },
 
   'scripts': {

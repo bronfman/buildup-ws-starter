@@ -12,11 +12,11 @@ var notify 				= require('gulp-notify');
 
 // Gulp styles
 gulp.task('styles', function() {
-  return gulp.src('./src/sass/main.scss')
+  return gulp.src( [config.styles.src] )
     .pipe(plumber(
     		{errorHandler: notify.onError('Error: <%= error.message %>')}
     ))
-    .pipe(sass({ style: 'expanded', }))
-    .pipe(gulp.dest('./build/css/'))
+    .pipe(sass({outputStyle: config.styles.outputstyle}))
+    .pipe(gulp.dest(config.styles.dest))
     .pipe(browsersync.stream());
 });
