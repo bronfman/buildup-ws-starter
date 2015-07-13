@@ -10,7 +10,7 @@ var sass        	= require('gulp-sass');
 var plumber 			= require('gulp-plumber');
 var notify 				= require('gulp-notify');
 
-// Gulp styles
+// Run Gulp SASS to create stylesheets
 gulp.task('styles', function() {
   return gulp.src( [config.styles.src] )
     .pipe(plumber(
