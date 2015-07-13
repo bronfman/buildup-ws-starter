@@ -4,7 +4,6 @@ module.exports = {
 
   'browserport'  : 3000,
   'uiport'       : 3001,
-  'serverport'   : 3002,
 
   'dist': {
     'root'  : 'build'
@@ -25,6 +24,12 @@ module.exports = {
     'src' : 'src/js/**/*.js',
     'dest': 'build/js'
   },
+
+
+
+
+
+
 
 
   'fonts': {

@@ -10,7 +10,11 @@ var browsersync 	= require('browser-sync');
 // Static Server + watching scss/html files (localhost:3000)
 gulp.task('serve', ['styles'], function() {
     browsersync.init({
-        server: "./build"
+        server  : config.dist.root,
+        port    : config.browserport,
+        ui: 		{
+ 					 				port: config.uiport
+								}
     });
     gulp.watch('./src/sass/**/*.scss', ['styles']);
     gulp.watch('./src/views/**/*.html', ['movefiles']);
