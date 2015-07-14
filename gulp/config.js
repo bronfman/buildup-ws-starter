@@ -30,6 +30,11 @@ module.exports = {
     'dest': 'build/fonts'
   },
 
+  'prefixer': {
+    'browsers'  : 'last 2 versions',
+    'cascade'   : true
+   },
+
 
 
 

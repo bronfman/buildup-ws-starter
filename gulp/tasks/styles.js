@@ -9,6 +9,7 @@ var browsersync 	= require('browser-sync');
 var sass        	= require('gulp-sass');
 var plumber 			= require('gulp-plumber');
 var notify 				= require('gulp-notify');
+var autoprefixer 	= require('gulp-autoprefixer');
 
 // Run Gulp SASS to create stylesheets
 gulp.task('styles', function() {
@@ -17,6 +18,10 @@ gulp.task('styles', function() {
     		{errorHandler: notify.onError('Error: <%= error.message %>')}
     ))
     .pipe(sass({outputStyle: config.styles.outputstyle}))
+    .pipe(autoprefixer({
+        browsers: [config.prefixer.browsers],
+        cascade: config.prefixer.cascade
+    }))
     .pipe(gulp.dest(config.styles.dest))
     .pipe(browsersync.stream());
 });
