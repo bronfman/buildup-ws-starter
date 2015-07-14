@@ -25,17 +25,17 @@ module.exports = {
     'dest': 'build/js'
   },
 
-
-
-
-
-
-
-
   'fonts': {
-    'src' : ['app/fonts/**/*'],
+    'src' : ['src/fonts/**/*'],
     'dest': 'build/fonts'
   },
+
+
+
+
+
+
+
 
   'data': {
     'src' : ['app/data/**/*'],
