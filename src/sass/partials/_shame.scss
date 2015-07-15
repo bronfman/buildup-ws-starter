@@ -2,8 +2,12 @@
 ////////////////////////////////////////////////////////////
 
 html{
+	background: $jumbo;
+}
+
+p{
+	color: $white;
 	font-family: $sf-text-thinitalic ;
-	background: #898989;
 	font-size: rem-calc(30);
 	@media #{$small-only}{
 		font-size: rem-calc(60);
