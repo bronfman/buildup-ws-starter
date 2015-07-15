@@ -1,0 +1,36 @@
+// _variables.scss 			./partials
+////////////////////////////////////////////////////////////
+
+
+//// Fonts   ///////////////////////////////////////////////
+// Setup backup stack
+$font-backups:  Helvetica, Arial, Verdana;
+
+// Sanfrancisco Display
+$sf-disp-black        : sanfran-display-black, $font-backups;
+$sf-disp-bold         : sanfran-display-bold, $font-backups;
+$sf-disp-heavy        : sanfran-display-heavy, $font-backups;
+$sf-disp-black        : sanfran-display-black, $font-backups;
+$sf-disp-light        : sanfran-display-light, $font-backups;
+$sf-disp-medium       : sanfran-display-medium, $font-backups;
+$sf-disp-regular      : sanfran-display-regular, $font-backups;
+$sf-disp-semibold     : sanfran-display-semibold, $font-backups;
+$sf-disp-thin         : sanfran-display-thin, $font-backups;
+$sf-disp-ultralight   : sanfran-display-ultralight, $font-backups;
+
+// Sanfrancisco Text
+$sf-text-bold             :   sanfran-text-bold, $font-backups;
+$sf-text-bolditalic       :   sanfran-text-bolditalic, $font-backups;
+$sf-text-heavy            :   sanfran-text-heavy, $font-backups;
+$sf-text-heavyitalic      :   sanfran-text-heavyitalic, $font-backups;
+$sf-text-light            :   sanfran-text-light, $font-backups;
+$sf-text-lightitalic      :   sanfran-text-lightitalic, $font-backups;
+$sf-text-medium           :   sanfran-text-medium, $font-backups;
+$sf-text-mediumitalic     :   sanfran-text-mediumitalic, $font-backups;
+$sf-text-regular          :   sanfran-text-regular, $font-backups;
+$sf-text-regularitalic    :   sanfran-text-regularitalic, $font-backups;
+$sf-text-semibold         :   sanfran-text-semibold, $font-backups;
+$sf-text-semibolditalic   :   sanfran-text-semibolditalic, $font-backups;
+$sf-text-thin             :   sanfran-text-thin, $font-backups;
+$sf-text-thinitalic       :   sanfran-text-thinitalic, $font-backups;
+////////////////////////////////////////////////////////////
