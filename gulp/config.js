@@ -10,9 +10,9 @@ module.exports = {
   },
 
   'styles': {
-    'src'  : 'src/sass/**/*.scss',
-    'dest' : 'build/css',
-    'outputstyle': 'expanded' // Values: nested, expanded, compact, compressed
+    'src'         : 'src/sass/**/*.scss',
+    'dest'        : 'build/css',
+    'outputstyle' : 'expanded' // Values: nested, expanded, compact, compressed
   },
 
   'images': {
@@ -36,8 +36,8 @@ module.exports = {
    },
 
   'watch': {
-    'styles'    :  './src/sass/**/*.scss',
-    'html'      :  './src/views/**/*.html'
+    'styles'    : './src/sass/**/*.scss',
+    'html'      : './src/views/**/*.html'
   },
 
 

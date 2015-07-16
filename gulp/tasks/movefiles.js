@@ -10,7 +10,7 @@ var rename 				= require('gulp-rename');
 
 // Copy files from src to build
 gulp.task('movefiles', function() {
-		gulp.src('./src/views/index.html')
+		gulp.src('./src/views/**/*.html')
 		.pipe(rename('index.html'))
 		.pipe(gulp.dest(config.dist.root));
 });
