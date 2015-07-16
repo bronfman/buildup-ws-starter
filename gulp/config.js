@@ -35,6 +35,11 @@ module.exports = {
     'cascade'   : true
    },
 
+  'watch': {
+    'styles'    :  './src/sass/**/*.scss',
+    'html'      :  './src/views/**/*.html'
+  },
+
 
 
 

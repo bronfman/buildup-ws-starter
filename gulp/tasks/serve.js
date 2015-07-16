@@ -16,7 +16,7 @@ gulp.task('serve', ['styles'], function() {
  					 				port: config.uiport
 								}
     });
-    gulp.watch('./src/sass/**/*.scss', ['styles']);
-    gulp.watch('./src/views/**/*.html', ['movefiles']);
-    gulp.watch('./build/**/*.html').on('change', browsersync.reload);
+    gulp.watch(config.watch.styles, ['styles']);
+    gulp.watch(config.watch.html, ['movefiles']);
+    gulp.watch('./' + config.dist.root + '/**/*.html').on('change', browsersync.reload);
 });
