@@ -20,6 +20,11 @@ module.exports = {
     'dest': 'build/img'
   },
 
+  'views': {
+    'src' : './src/views/**/*',
+    'dest': 'build'
+  },
+
   'scripts': {
     'src' : 'src/js/**/*.js',
     'dest': 'build/js'
@@ -52,14 +57,6 @@ module.exports = {
     'dest': 'build/data'
   },
 
-  'views': {
-    'watch': [
-      'app/index.html',
-      'app/views/**/*.html'
-    ],
-    'src': 'app/views/**/*.html',
-    'dest': 'app/templates'
-  },
 
   'gzip': {
     'src': 'build/**/*.{html,xml,json,css,js,js.map}',
