@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "A website starter kit built from the ground up with tags and branches detailing added complexity along the way.",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bbodine1/buildup-ws-starter.git"
