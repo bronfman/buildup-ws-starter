@@ -31,6 +31,6 @@
   },
   "scripts": {
     "start": "gulp",
-    "clean": "git clean -xdf"
+    "stop": "git clean -xdf"
   }
 }
