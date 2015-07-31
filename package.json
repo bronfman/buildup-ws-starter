@@ -30,7 +30,8 @@
     "run-sequence": "^1.1.2"
   },
   "scripts": {
+    "create": "rm readme.md && mv readme.md.new readme.md",
     "start": "gulp",
-    "stop": "git clean -xdf"
+    "clean": "git clean -xdf"
   }
 }
