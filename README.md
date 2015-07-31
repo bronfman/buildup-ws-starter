@@ -1,11 +1,14 @@
 # Build-up Website Starter (buildup-ws-starter)
 _A website starter kit built from the ground up with tags and branches detailing added complexity along the way._
 
+### How to Create
+Update this project and set it to your own git repo. Update the readme to use your own project readme. Run `npm run create`. 
+
 ### How to build
 To build this project run `npm install` then `npm start`. The page will launch in your browser at `localhost:3000`
 
 ### How to Clean
-To reset the project back to the last git commit, run `npm stop`. You will need to re install all npm modules to start up again.
+To reset the project back to the last git commit, run `npm run clean`. You will need to re install all npm modules to start up again.
 
 ### Configurations
 To configure the build process, edit the `config.js` located in the `gulp` folder.
