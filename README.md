@@ -2,7 +2,7 @@
 _A website starter kit built from the ground up with tags and branches detailing added complexity along the way._
 
 ### How to Create
-Update this project and set it to your own git repo. Update the readme to use your own project readme. Run `npm run create`. 
+Update this project and set it to your own git repo. Update the readme to use your own project readme. Run `npm run create`.
 
 ### How to build
 To build this project run `npm install` then `npm start`. The page will launch in your browser at `localhost:3000`
