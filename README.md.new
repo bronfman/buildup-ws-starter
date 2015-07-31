@@ -1,0 +1,6 @@
+# My Website Name
+Website Description
+
+## How to Build
+- Serve - Run `npm install` then `npm start` - This will install, build, then serve the website to your browser.
+- Clean - Run `npm clean` - This will reset the website to it's default, prebuilt state.
