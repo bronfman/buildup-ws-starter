@@ -1,6 +1,12 @@
 # Build-up Website Starter (buildup-ws-starter)
 _A website starter kit built from the ground up with tags and branches detailing added complexity along the way._
 
+### How to build
+To build this project run `npm install` then `npm start`. The page will launch in your browser at `localhost:3000`
+
+### Configurations
+To configure the build process, edit the `config.js` located in the `gulp` folder.
+
 ### What this readme is for
 This readme will timeline all the changes made and callout tags and branches, describing what each tag or branch is and how it changes the starter.
 
