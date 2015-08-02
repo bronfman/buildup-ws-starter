@@ -17,10 +17,13 @@ Lastly, push your new project to your new repo
 Update the readme to use your own project readme. This will rename the bu-starter readme.md to setup.md and create a generic readme.md Run `npm run create`.
 
 #### How to build
-To build this project run `npm install` then `npm start`. The page will launch in your browser at `localhost:3000`
+To build this project run `npm install`. The page will launch in your browser at `localhost:3000` . `npm start` is called automatically after npm install is ran.
 
 #### How to Clean
 To reset the project back to the last git commit, run `npm run clean`. You will need to re install all npm modules to start up again.
+
+#### How to Start and Serve
+To serve this project run `npm start`. The page will launch in your browser at `localhost:3000`
 
 #### Configurations
 To configure the build process, edit the `config.js` located in the `gulp` folder.
