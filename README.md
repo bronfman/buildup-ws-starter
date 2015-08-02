@@ -1,11 +1,11 @@
 # Build-up Website Starter (buildup-ws-starter)
 _A website starter kit built from the ground up with tags and branches detailing added complexity along the way._
 
-#### Where to start
+#### Setting up a new project
 First, clone this repo to a location on your computer. Change the folder name to the name of your project.
 > `git clone git@github.com:bbodine1/buildup-ws-starter.git folderName`
 
-Now cd into that folder and change the git remote from the build-up starter to your new project
+Now cd into that folder and change the [git remote](https://github.com) from the build-up starter to your new project
 > `git remote add origin your@reponame.git` - example reponame `git@github.com:bbodine1/test.git`
 
 Lastly, push your new project to your new repo
@@ -14,7 +14,7 @@ Lastly, push your new project to your new repo
 ## Once the new project is setup
 
 #### How to Create
-Update this project and set it to your own git repo. Update the readme to use your own project readme. Run `npm run create`.
+Update the readme to use your own project readme. This will rename the bu-starter readme.md to setup.md and create a generic readme.md Run `npm run create`.
 
 #### How to build
 To build this project run `npm install` then `npm start`. The page will launch in your browser at `localhost:3000`
