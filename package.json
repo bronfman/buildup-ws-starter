@@ -32,8 +32,8 @@
   "scripts": {
     "create": "mv readme.md setup.md && mv readme.md.new readme.md",
     "start": "gulp",
+    "build": "gulp build",
     "clean": "git clean -xdf",
-    "reset": "git fetch origin && git reset --hard origin/master",
-    "postinstall": "npm start"
+    "reset": "git fetch origin && git reset --hard origin/master"
   }
 }
